@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #283D3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+svg {
+    margin: 10px;
+}
+
+ #Minutar {
+    /* animation: trec-minute linear 10s infinite;
+    transform-origin: 231.5px 231.5px; */
+    transition: 2s;
+}
+
+#Orar {
+    /* animation: trec-minute linear 5s infinite;
+    transform-origin: 231.5px 231.5px; */
+    transition: 2s;
+} 
+
+@keyframes trec-minute {
+    from {
+        transform: rotateZ(0deg);
+    }to {
+        transform: rotateZ(360deg);
+    }
+}
